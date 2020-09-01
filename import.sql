@@ -34,7 +34,6 @@ CREATE TABLE `movies` (
 description TEXT NOT NULL,
  youtube_trailer_id VARCHAR(20) NULL
 );    
-
  INSERT INTO `movies` (`title`, `duur`, `datum_van_uitkomst`, `land_van_uitkomst`, `youtube_trailer_id`, `description`) VALUES
 ('Black Panther', 134, '2018-02-14', 'VS', 'xjDjIWPwcPU', 'Duizenden jaren geleden stortte er in Afrika een meteoriet neer op aarde, vol met het metaal vibranium. Vijf stammen trokken ten strijde om dit als hun bezit te claimen. Tijdens de oorlog nam één krijger een paars, hartvormig kruid in dat was aangetast door het vibranium. Dit maakte hem de eerste Black Panther. Hij verenigde vier van vijf stammen en vormde het land Wakanda. Alleen de Jabari-stam bleef autonoom. In de eeuwen die volgden, gebruikten de Wakandanen het vibranium om een technologisch extreem gevorderde beschaving op te bouwen, zich intussen voordoend als een derdewereldland om hun geïsoleerde positie in de wereld te behouden.'),
 ('John Wick', 110, '2014-11-20', 'VS', '2AUmvWm5ZDQ', 'John Wick is een legende in het misdaadcircuit als voormalige huurmoordenaar voor de Russische maffia. Hij trok zich terug uit deze wereld om te trouwen met zijn geliefde Helen. Wanneer zij vijf jaar later overlijdt aan kanker, krijgt hij in haar opdracht een puppy met de naam Daisy thuisbezorgd. Bij het cadeau zit een brief van Helen waarin ze hem vertelt dat ze hem het hondje geeft omdat ze wil dat hij iets heeft om van te houden. Wick weet niet meteen wat hij met Daisy aan moet, maar het beestje is zo speels, af- en aanhankelijk dat hij van haar gaat houden.'),
